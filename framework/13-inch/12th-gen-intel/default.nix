@@ -35,7 +35,7 @@
         # https://kvark.github.io/linux/framework/2021/10/17/framework-nixos.html
         # Update 04/2024: Combined with acpi_osi from framework-intel it increases the idle power-usage in my test (SebTM)
         # (see: https://github.com/NixOS/nixos-hardware/pull/903#issuecomment-2068146658)
-        "mem_sleep_default=deep"
+        # "mem_sleep_default=deep"
       ];
 
       # Further tweak to ensure the brightness and airplane mode keys work
